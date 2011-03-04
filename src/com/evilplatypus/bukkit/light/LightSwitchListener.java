@@ -46,8 +46,6 @@ public class LightSwitchListener extends BlockListener {
         		}
         	}
         	if (b.getType() == Material.JACK_O_LANTERN) {
-        		System.out.println(b.isBlockIndirectlyPowered());
-        		System.out.println(b.isBlockPowered());
         		if ((!b.isBlockIndirectlyPowered() && !b.isBlockPowered()) || forceSwitchOff) {
         			b.setType(Material.PUMPKIN);
         		}
