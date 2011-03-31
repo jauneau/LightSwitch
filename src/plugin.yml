@@ -1,5 +1,0 @@
-name: LightSwitch
-description: Minecraft Bukkit plugin for swicth on/off pumpkins with redstone or buttons.
-version: 0.11
-author: Jauneau Vincent
-main: com.evilplatypus.bukkit.light.LightSwitch
